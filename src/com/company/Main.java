@@ -10,6 +10,7 @@ public class Main {
         operationsWithMatrix();
         operationsWithDublicates();
     }
+
     // Task - 1.
     public static void operationsWithArrays() {
         int[] array = new int[20];
@@ -53,6 +54,7 @@ public class Main {
             System.out.println(" Заміна елементів : " + array[i]);
         }
     }
+
     // Task - 2.
     public static void operationsWithMatrix() {
         String[][] matrix = {
@@ -62,6 +64,7 @@ public class Main {
         };
         System.out.println(" Значення головної діагоналі :" + matrix[0][0] + matrix[1][1] + matrix[2][2]);
     }
+
     // Task - 3.
     public static void operationsWithDublicates() {
         int[] mas = {3, 2, 3, 1, 4, 2, 8, 3};
