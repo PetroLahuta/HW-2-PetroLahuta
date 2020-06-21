@@ -77,5 +77,4 @@ public class Main {
         }
         System.out.println("No Dublicates : " + Arrays.toString(mas));
     }
-
 }
